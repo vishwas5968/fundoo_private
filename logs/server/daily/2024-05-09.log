@@ -1,0 +1,107 @@
+error: Could not connect to the database. The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string. {"stack":"MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.Object.<anonymous>.Connection.openUri (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\mongoose\\lib\\connection.js:694:11)\n    at E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose.Object.<anonymous>.Mongoose._promiseOrCallback (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.Object.<anonymous>.Mongoose.connect (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at connect (E:\\Bridgelabz\\Project\\FunDooNotes\\src\\config\\database.js:12:20)\n    at tryCatch (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at apply (E:\\Bridgelabz\\Project\\FunDooNotes\\src\\config\\database.js:4:15)\n    at Object.<anonymous> (E:\\Bridgelabz\\Project\\FunDooNotes\\src\\index.js:31:9)\n    at Runtime._execModule (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runtime\\build\\index.js:1439:24)\n    at Runtime._loadModule (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runtime\\build\\index.js:1022:12)\n    at Runtime.requireModule (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runtime\\build\\index.js:882:12)\n    at Runtime.requireModuleOrMock (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runtime\\build\\index.js:1048:21)\n    at Object.require (E:\\Bridgelabz\\Project\\FunDooNotes\\tests\\integration\\fundoo.test.js:4:1)\n    at Runtime._execModule (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runtime\\build\\index.js:1439:24)\n    at Runtime._loadModule (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runtime\\build\\index.js:1022:12)\n    at Runtime.requireModule (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runtime\\build\\index.js:882:12)\n    at jestAdapter (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:77:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at runTestInternal (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n    at Object.worker (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runner\\build\\testWorker.js:106:12)","timestamp":"2024-05-09T03:24:33.944Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T03:24:33.974Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T03:28:24.705Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T03:34:15.137Z"}
+error:
+    status - 500
+    message - UnsupportedMediaTypeError: unsupported charset "UTF-8"
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:85:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+    url - /api/users
+    method - POST
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-09T03:34:15.227Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T03:59:19.264Z"}
+error:
+    status - 500
+    message - UnsupportedMediaTypeError: unsupported charset "UTF-8"
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:85:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+    url - /api/users
+    method - POST
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-09T03:59:19.334Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T04:33:20.886Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T04:53:50.977Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T04:53:51.211Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T04:55:25.592Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T04:55:25.685Z"}
+error:
+    status - 500
+    message - ReferenceError: jsonResponse is not defined
+    at _callee$ (E:\Bridgelabz\Project\FunDooNotes\src\controllers\user.controller.js:14:39)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    url - /api/v1/users
+    method - POST
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-09T04:55:25.745Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T04:58:52.111Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T04:58:52.165Z"}
+error:
+    status - 500
+    message - ReferenceError: jsonResponse is not defined
+    at _callee$ (E:\Bridgelabz\Project\FunDooNotes\src\controllers\user.controller.js:14:39)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    url - /api/v1/users
+    method - POST
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-09T04:58:52.205Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T05:01:02.209Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T05:01:02.261Z"}
+error:
+    status - 500
+    message - RangeError: Invalid status code: { firstName: 'Harsh', lastName: 'Patil', email: 'harsh@email.com' }
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (E:\Bridgelabz\Project\FunDooNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\response.js:279:15)
+    at json (E:\Bridgelabz\Project\FunDooNotes\src\controllers\user.controller.js:14:40)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    url - /api/v1/users
+    method - POST
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-09T05:01:02.305Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T05:03:06.871Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T05:03:06.925Z"}
+info: [object Object] {"timestamp":"2024-05-09T05:03:06.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T05:08:21.045Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T05:08:21.114Z"}
+info: [object Object] {"timestamp":"2024-05-09T05:08:21.159Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T05:09:50.804Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T05:09:50.859Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T05:10:28.876Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T05:10:28.930Z"}
+info: [object Object] {"timestamp":"2024-05-09T05:10:28.971Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T05:11:01.893Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T05:11:01.948Z"}
+info: [object Object] {"timestamp":"2024-05-09T05:11:01.991Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T05:11:55.678Z"}
+error: Could not connect to the database. Server selection timed out after 30000 ms {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: Server selection timed out after 30000 ms\n    at NativeConnection.Object.<anonymous>.Connection.openUri (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose.Object.<anonymous>.Mongoose._promiseOrCallback (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.Object.<anonymous>.Mongoose.connect (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (E:\\Bridgelabz\\Project\\FunDooNotes\\src\\config\\database.js:22:39)\n    at tryCatch (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at database (E:\\Bridgelabz\\Project\\FunDooNotes\\src\\config\\database.js:43:17)\n    at Object.<anonymous> (E:\\Bridgelabz\\Project\\FunDooNotes\\src\\index.js:35:26)\n    at Runtime._execModule (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runtime\\build\\index.js:1439:24)\n    at Runtime._loadModule (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runtime\\build\\index.js:1022:12)\n    at Runtime.requireModule (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runtime\\build\\index.js:882:12)\n    at Runtime.requireModuleOrMock (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runtime\\build\\index.js:1048:21)\n    at Object.require (E:\\Bridgelabz\\Project\\FunDooNotes\\tests\\integration\\fundoo.test.js:95:1)\n    at Runtime._execModule (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runtime\\build\\index.js:1439:24)\n    at Runtime._loadModule (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runtime\\build\\index.js:1022:12)\n    at Runtime.requireModule (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runtime\\build\\index.js:882:12)\n    at jestAdapter (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:77:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at runTestInternal (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (E:\\Bridgelabz\\Project\\FunDooNotes\\node_modules\\jest-runner\\build\\runTest.js:444:34)","timestamp":"2024-05-09T05:12:25.211Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T05:12:39.030Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T05:12:39.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T05:13:33.151Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T05:13:33.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T05:19:20.115Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T05:19:20.199Z"}

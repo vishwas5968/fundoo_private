@@ -1,0 +1,14 @@
+info: ::1 - - [27/Apr/2024:06:01:23 +0000] "POST /api/v1/users/login HTTP/1.1" 200 58 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [27/Apr/2024:06:02:02 +0000] "GET /api/v1/notes HTTP/1.1" 200 728 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [27/Apr/2024:06:02:16 +0000] "PUT /api/v1/notes/note/662b2df6493cca50c851d301 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [27/Apr/2024:07:23:13 +0000] "GET /api/v1/notes HTTP/1.1" 200 59 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [27/Apr/2024:07:25:59 +0000] "GET /api/v1/notes HTTP/1.1" 200 59 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [27/Apr/2024:07:26:42 +0000] "GET /api/v1/notes HTTP/1.1" 200 728 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [27/Apr/2024:07:27:13 +0000] "GET /api/v1/notes HTTP/1.1" 200 728 "-" "PostmanRuntime/7.37.3"
+

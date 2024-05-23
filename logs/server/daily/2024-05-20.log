@@ -1,0 +1,127 @@
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T05:17:10.826Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T05:17:10.889Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T06:31:15.574Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T06:31:15.612Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T06:31:57.510Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T06:31:57.573Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T06:36:08.328Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T06:36:08.384Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T06:38:55.638Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T06:38:55.693Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T06:39:03.790Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T06:39:03.834Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T06:40:09.210Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T06:40:09.255Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T06:43:10.949Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T06:43:10.994Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T06:46:52.811Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T06:46:52.882Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T06:49:10.169Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T06:49:10.307Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T06:50:15.359Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T06:50:15.410Z"}
+[31merror[39m: 
+      status - 11000
+      message - E11000 duplicate key error collection: FunDoo_Notes.users index: email_1 dup key: { email: "vishwasss968@gmail.com" } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-05-20T06:50:41.084Z"}
+[31merror[39m: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (E:\Bridgelabz\Project\FunDooNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\response.js:279:15)
+    at appErrorHandler (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:326:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:265:14)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:141:14)
+    at _callee$ (E:\Bridgelabz\Project\FunDooNotes\src\controllers\/user.controller.js:32:5)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-20T06:50:41.091Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T06:54:05.813Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T06:54:05.941Z"}
+[31merror[39m: 
+      status - 11000
+      message - E11000 duplicate key error collection: FunDoo_Notes.users index: email_1 dup key: { email: "vishwasss968@gmail.com" } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-05-20T06:54:26.587Z"}
+[31merror[39m: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (E:\Bridgelabz\Project\FunDooNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\response.js:279:15)
+    at appErrorHandler (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:326:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:265:14)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:646:15
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:141:14)
+    at _callee$ (E:\Bridgelabz\Project\FunDooNotes\src\controllers\/user.controller.js:33:5)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.throw (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-20T06:54:26.599Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T06:56:13.217Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T06:56:13.268Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T07:37:10.042Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T07:37:10.071Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T07:39:09.422Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T07:39:09.555Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T07:41:09.218Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T07:41:09.258Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T07:42:13.982Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T07:42:14.021Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T07:43:30.055Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T07:43:30.109Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T07:45:16.900Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T07:45:20.521Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T07:45:21.474Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T07:46:17.324Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T07:46:17.364Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T07:47:08.407Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T07:47:08.444Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T07:49:46.065Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T07:49:46.102Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T07:49:59.844Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T07:49:59.885Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-20T07:50:24.195Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-20T07:50:24.233Z"}

@@ -1,0 +1,54 @@
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:49:07.884Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T05:49:08.006Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:51:47.611Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T05:51:47.745Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:53:43.311Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T05:53:43.415Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:56:36.446Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T05:56:36.538Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:00:18.618Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:00:18.710Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:05:38.979Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:05:39.057Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:13:17.972Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:13:18.061Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:13:32.037Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:13:32.102Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:13:54.346Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:13:54.446Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:14:04.712Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:14:04.811Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:16:05.748Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:16:05.842Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:17:37.095Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:17:37.166Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:20:50.397Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:20:50.499Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:23:21.479Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:23:21.570Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:23:45.312Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:23:45.390Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:24:20.295Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:24:20.365Z"}
+[31merror[39m: 
+    status - 500 
+    message - ReferenceError: info is not defined
+    at _callee$ (E:\Bridgelabz\Project\FunDooNotes\src\controllers\/user.controller.js:26:19)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-21T06:24:30.595Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:24:59.087Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:24:59.167Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:31:56.655Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:31:56.708Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:32:10.123Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T06:32:10.163Z"}
+[32minfo[39m: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T07:13:51.299Z"}
+[32minfo[39m: Connected to the database. {"timestamp":"2024-05-21T07:13:51.363Z"}

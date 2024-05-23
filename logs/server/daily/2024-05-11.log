@@ -1,0 +1,969 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T04:38:27.229Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T04:38:27.265Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:18:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T04:38:27.944Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T04:44:53.071Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T04:44:53.098Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:17:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:8:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T04:44:53.380Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T04:49:09.458Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T04:49:09.484Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:16:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T04:49:09.688Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T04:55:09.207Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T04:55:09.233Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:16:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T04:55:09.432Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T04:57:17.158Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T04:57:17.179Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:04:46.291Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:04:46.314Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:06:37.461Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:06:37.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:07:39.596Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:07:39.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:09:01.866Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:09:01.885Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:09:10.445Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:09:10.464Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:09:38.307Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:09:38.326Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:10:00.352Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:10:00.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:10:51.562Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:10:51.593Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:16:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T05:10:51.802Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:13:55.517Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:13:55.543Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:16:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T05:13:55.826Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:14:32.143Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:14:32.176Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:16:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T05:14:32.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:15:37.391Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:15:37.423Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:16:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T05:15:37.618Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:16:21.253Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:16:21.293Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:16:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T05:16:21.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:18:04.276Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:18:04.310Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:16:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T05:18:04.506Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:19:42.144Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:19:42.170Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:17:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T05:19:42.396Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:22:26.242Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:22:26.274Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:17:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T05:22:26.511Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:25:24.988Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:25:25.017Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:17:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T05:25:25.258Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:26:44.680Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:26:44.713Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:17:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T05:26:44.953Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:33:08.248Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:33:08.359Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:17:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T05:33:08.670Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:36:24.049Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:36:24.082Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:17:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T05:36:24.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:38:53.176Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:38:53.211Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:43:16.439Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:43:16.595Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.<anonymous>.module.exports [as verify] (E:\Bridgelabz\Project\FunDooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at verify (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:17:33)
+    at tryCatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at apply (E:\Bridgelabz\Project\FunDooNotes\src\middlewares\auth.middleware.js:7:22)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\Bridgelabz\Project\FunDooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Bridgelabz\Project\FunDooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\Bridgelabz\Project\FunDooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Bridgelabz\Project\FunDooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/reset-password 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-05-11T05:43:17.434Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:44:39.187Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:44:39.214Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:46:08.186Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:46:08.212Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:46:45.006Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:46:45.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:54:03.306Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:54:03.352Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:56:58.256Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:56:58.307Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T05:59:47.859Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T05:59:47.917Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T06:00:14.196Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T06:00:14.252Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-11T06:01:31.708Z"}
+info: Connected to the database. {"timestamp":"2024-05-11T06:01:31.776Z"}
